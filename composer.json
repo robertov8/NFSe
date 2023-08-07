@@ -12,7 +12,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.5.0",
-    "robertov8/pqd": "1.0"
+    "robertov8/pqd": "1.1"
   },
   "autoload": {
     "psr-4": {
