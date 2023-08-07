@@ -1,31 +1,33 @@
 {
-    "name": "willkerms/nfs-e",
-    "description": "Nota Fiscal Eletronica de Servico",
-    "type": "library",
-    "license": "GPL-2.0+",
-    "authors": [
-        {
-            "name": "Willker Moraes Silva",
-            "email": "willkerms@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php" : ">=5.5.0",
-        "willkerms/pqd" : "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-          "NFSe\\": "./"
-        },
-        "psr-0": {
-            "": ["./"]
-        },
-        "classmap": [
-            "./generico/",
-            "./sigep/",
-            "./issweb/",
-            "./ginfes/"
-        ]
+  "name": "robertov8/nfs-e",
+  "description": "Nota Fiscal Eletronica de Servico",
+  "type": "library",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Willker Moraes Silva",
+      "email": "willkerms@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.0",
+    "robertov8/pqd": "1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NFSe\\": "./"
+    },
+    "psr-0": {
+      "": [
+        "./"
+      ]
+    },
+    "classmap": [
+      "./generico/",
+      "./sigep/",
+      "./issweb/",
+      "./ginfes/"
+    ]
+  }
 }
